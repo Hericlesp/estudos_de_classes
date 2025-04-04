@@ -1,21 +1,14 @@
 import os
 import random
 
-#numeros_sorteados=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+
+numeros_sorteados=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33]
+numero=random.choice(numeros_sorteados)
 
 
-while True:
-    numeros_sorteados=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
-    numero=random.choice(numeros_sorteados)
-    
-    if numero == 32:
-        print(f"Parabens o numero sorteado é: {numero}")
-        break
-    else:
-        continue
 
   
-'''
+
 def spac():
     print(" \n "* 3)
     
@@ -141,4 +134,25 @@ os.system("cls")
     
 sort5()
 
-'''
+
+while True:
+    def ml():
+        print("\033[;32m===\033[m"*15)
+    
+    numeros_sorteados=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+    numero1=random.choice(numeros_sorteados)
+    
+    if 121 <= numero >=130 :
+        def numC():
+            print('        \033[7;33m   O GANHADOR É O NUMERO   \033[m')
+            print("                     ===           ")
+            print("                 === \033[7;36m   \033[m ===          ")
+            print(f"              ===  \033[7;36m       \033[m ===    ")
+            print(f"             ===  \033[7;36;47m    {numero1}    \033[m ===    ")
+            print(f"              ===  \033[7;36m       \033[m ===    ")
+            print("                 === \033[7;36m   \033[m ===    ")
+            print("                     ===           ")
+            ml()
+            break
+    else:
+        continue
